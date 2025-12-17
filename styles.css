@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #111; line-height: 1.5; }
+a { color: inherit; }
+.container { max-width: 1100px; margin: 0 auto; padding: 18px; }
+
+.header { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #eee; }
+.brand { display: flex; gap: 14px; align-items: center; }
+.logo { width: 44px; height: 44px; border: 1px solid #111; display: grid; place-items: center; font-weight: 700; }
+.subtitle { margin: 6px 0 0; color: #444; }
+.nav { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; }
+.nav a { text-decoration: none; padding: 8px 10px; border: 1px solid #eee; border-radius: 12px; }
+
+.hero { padding: 48px 0; border-bottom: 1px solid #eee; }
+.hero h2 { font-size: 32px; margin: 0 0 10px; max-width: 900px; }
+.hero p { margin: 0 0 12px; max-width: 800px; color: #333; }
+.cta { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+.btn { display: inline-block; padding: 10px 14px; border-radius: 12px; border: 1px solid #111; text-decoration: none; }
+.btn.secondary { border-color: #ddd; }
+
+.section { padding: 44px 0; }
+.section.alt { background: #fafafa; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.card { border: 1px solid #eee; border-radius: 16px; padding: 16px; background: #fff; }
+.card h4 { margin: 0 0 10px; }
+.card ul { margin: 0; padding-left: 18px; }
+
+.contact { max-width: 520px; }
+.footer { border-top: 1px solid #eee; padding: 18px 0; background: #fff; }
+.note { color: #555; font-size: 14px; }
